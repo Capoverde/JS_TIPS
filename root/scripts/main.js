@@ -19,23 +19,68 @@ console.log(stringOne.endsWith('learn'));
 console.log(String.fromCharCode(114));
 
 // #6 includes()
-
+console.log(stringOne.includes("end"));
 
 
 // #7 indexOf()
 
-
+console.log(stringOne.indexOf("end"));
 
 //  #8 lastIndexOf()
 
+console.log(stringOne.lastIndexOf("end"));
 
 //  #9 match()
 
+console.log(stringOne.match(/end/g));
 
 //  #10 repeat()
 
+console.log(stringOne.repeat(3));
 
 //  #11 replace()
+
+console.log(stringOne.replace(/end/g, END));
+
+
+//  #12 search()
+
+console.log(stringOne.search("end"));
+
+//  #13 slice()
+
+console.log(stringOne.slice(2,4));
+
+//  #14 split()
+
+console.log(stringOne.split(" "));
+
+//  #15 startsWith()
+
+console.log(stringOne.startsWith('free'));
+
+//  #16 substr()
+
+console.log(stringOne.substr(2,4));
+
+//  #17 substring()
+
+console.log(stringOne.substring(2,4));
+
+//  #18 toLowerCase()
+
+console.log(stringOne.toLowerCase());
+
+// #19 toUpperCase()
+
+console.log(stringOne.toUpperCase());
+
+// #20 trim()
+
+console.log(stringThree.trim());
+
+var stringThree = "       costam costam    ";
+console.log(stringThree.trim());
 
 
 
